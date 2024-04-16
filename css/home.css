@@ -1,0 +1,19 @@
+body{
+    background-color: #f6fcff;
+    background-image: url("../images/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* 
+    중앙이미지 정가운데 위치
+    화면 크기 줄어들 떄 화면 너비를 100%를 
+    기준으로 해서 자동으로 이미지 크기를 조정
+*/
+.character{
+    width: 100%;
+    max-width: 364px;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
